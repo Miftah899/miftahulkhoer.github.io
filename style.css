@@ -1,3 +1,9 @@
+.banner {
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
 .jumbotron {
   padding-top: 20%;
   background-color: rgb(194, 196, 201);
