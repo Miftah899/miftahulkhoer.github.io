@@ -11,6 +11,9 @@
     <!-- Bootstrap Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.CSS" />
 
@@ -24,11 +27,15 @@
   </head>
   <body id="home">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">My Portofolio</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -51,18 +58,10 @@
     </nav>
     <!-- akhir navbar -->
 
-    <!-- Banner -->
-    <div class="container-fluid banner pt-6 pb-6">
-      <div class="container text-center">
-        <h4 class="display-12">Welcome to my website</h4>
-        <h3 class="display-12">Hai! Halo!</h3>
-                </a>
-      </div>
-    </div>
-    <!-- Akhir Banner -->
+   
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-      <img src="img/IMG_3327.jpg" alt="Miftahul Khoer" width="200" class="rounded-circle img-thumbnail" />
+      <img src="img/IMG_3327.jpg" alt="Miftahul Khoer" width="200" class="rounded-circle img-thumbnail" data-aos="fade-in" />
       <h1 class="fw-bold">Miftahul Khoer </h1>
       <p class="fw-bolder">Trainer | Designer</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,192L30,197.3C60,203,120,213,180,213.3C240,213,300,203,360,208C420,213,480,235,540,250.7C600,267,660,277,720,272C780,267,840,245,900,208C960,171,1020,117,1080,106.7C1140,96,1200,128,1260,122.7C1320,117,1380,75,1410,53.3L1440,32L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
@@ -71,14 +70,14 @@
 
     <!-- About Me -->
     <section id="About">
-        <div class="container mb-10">
+        <div class="container">
            <div class="row text-center">
-            <div class="col mb-10">
+            <div class="col mb-3">
                 <h2>About Me</h2>
             </div>
            </div> 
            <div class="row justify-content-center fs-5 text-center">
-            <div class="col-10 mb-10">
+            <div class="col-10 mb-10" data-aos="fade-right" data-aos-duration="2000">
                 <p> I have a strong interest and expertise in the field of analysis and hands on practice, graduated from the Department of Mechanical Engineering
                     Education at the Universitas Pendidikan Indonesia. 
                 <p> Automotive (subdiscipline of mechanical engineering). some of the subjects relevant to my background consist of designer Autodesk Autocad, Autodesk Inventor, energy conversion, thermofluids, heat transfer, engine elements, automotive electronic control, automotive
@@ -101,7 +100,7 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-md-6 mb-3" >
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500">
   <img src="img/projects/1.jpg" class="card-img-top" alt="Projects 1">
   <div class="card-body">
     <p class="card-text">Design of components in automotive, such as a connecting rod, which is an integral part of an engine.</p>
@@ -109,7 +108,7 @@
 </div>    
             </div> 
             <div class="col-md-6 mb-3" >
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-duration="500">
   <img src="img/projects/2.jpg" class="card-img-top" alt="Projects 2">
   <div class="card-body">
     <p class="card-text">The following is a design of an automotive component, namely a crankshaft.</p>
@@ -117,7 +116,7 @@
 </div>    
             </div> 
             <div class="col-md-6 mb-3" >
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100">
   <img src="img/projects/3.jpg" class="card-img-top" alt="Projects 3">
   <div class="card-body">
     <p class="card-text">The image below is a design of an automotive component consisting of a piston and some of its accessories, namely piston rings.</p>
@@ -125,7 +124,7 @@
 </div>    
             </div> 
             <div class="col-md-6 mb-3" >
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="100">
   <img src="img/projects/4.jpg" class="card-img-top" alt="Projects 4">
   <div class="card-body">
     <p class="card-text">The following image is a design of an automotive component found in the valve mechanism, known as the camshaft.</p>
@@ -133,7 +132,7 @@
 </div>    
             </div> 
             <div class="col-md-6 mb-3" >
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
   <img src="img/projects/5.jpg" class="card-img-top" alt="Projects 5">
   <div class="card-body">
     <p class="card-text">This component is often present in power train systems commonly referred to as helical gears.</p>
@@ -141,7 +140,7 @@
 </div>    
             </div> 
             <div class="col-md-6 mb-3" >
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="200">
   <img src="img/projects/6.jpg" class="card-img-top" alt="Projects 6">
   <div class="card-body">
     <p class="card-text">The following image is an automotive component that is certainly used to complement parts of a vehicle.</p>
@@ -149,7 +148,7 @@
 </div>    
             </div> 
             <div class="col-md-6 mb-3" >
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
   <img src="img/projects/7.jpg" class="card-img-top" alt="Projects 7">
   <div class="card-body">
     <p class="card-text">Disc brakes are a component in the braking system found in automotive vehicles.</p>
@@ -157,7 +156,7 @@
 </div>    
             </div> 
             <div class="col-md-6 mb-3" >
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="300">
   <img src="img/projects/8.jpg" class="card-img-top" alt="Projects 8">
   <div class="card-body">
     <p class="card-text">Design of rims made of cast iron and coated with chrome.</p>
@@ -165,7 +164,7 @@
 </div>    
             </div> 
             <div class="col-md-6 mb-3" >
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400">
   <img src="img/projects/9.png" class="card-img-top" alt="Projects 9">
   <div class="card-body">
     <p class="card-text">Rendered result of a disc brake using Autodesk AutoCAD.</p>
@@ -173,7 +172,7 @@
 </div>    
             </div> 
             <div class="col-md-6 mb-3" >
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="400">
   <img src="img/projects/10.png" class="card-img-top" alt="Projects 10">
   <div class="card-body">
     <p class="card-text">Rendered result of a piston rod using Autodesk AutoCAD.</p>
@@ -181,7 +180,7 @@
 </div>    
             </div> 
             <div class="col-md-6 mb-3" >
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="500">
   <img src="img/projects/11.png" class="card-img-top" alt="Projects 11">
   <div class="card-body">
     <p class="card-text">Rendered result of a crankshaft using Autodesk AutoCAD.</p>
@@ -189,7 +188,7 @@
 </div>    
             </div> 
             <div class="col-md-6 mb-3" >
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="500">
   <img src="img/projects/12.png" class="card-img-top" alt="Projects 12">
   <div class="card-body">
     <p class="card-text">Rendered result of a camshaft using Autodesk AutoCAD.</p>
@@ -197,7 +196,7 @@
 </div>    
             </div> 
             <div class="col-md-6 mb-3" >
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="600">
   <img src="img/projects/13.png" class="card-img-top" alt="Projects 13">
   <div class="card-body">
     <p class="card-text">Rendered result of a helical gear using Autodesk AutoCAD.</p>
@@ -205,7 +204,7 @@
 </div>    
             </div> 
             <div class="col-md-6 mb-3" >
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="600">
   <img src="img/projects/14.png" class="card-img-top" alt="Projects 14">
   <div class="card-body">
     <p class="card-text">Rendered result of a piston using Autodesk AutoCAD.</p>
@@ -213,7 +212,7 @@
 </div>    
             </div> 
             <div class="col-md-6 mb-3" >
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="700">
   <img src="img/projects/15.jpeg" class="card-img-top" alt="Projects 15">
   <div class="card-body">
     <p class="card-text">Rendered result of rims using Autodesk AutoCAD.</p>
@@ -236,29 +235,30 @@
           Please write your message in the column below
         </p>
         <div class="row pb-3">
-          <div class="col-md-6">
+          <div class="col-md-6"> 
+          <form name="wpu-contact-form">
             <input
               class="form-control form-control-lg mb-3"
               type="text"
-              placeholder="Your Name"
+              placeholder="Your Name" name="nama"
             />
             <input
               class="form-control form-control-lg mb-3"
               type="text"
-              placeholder="Email Address"
+              placeholder="Email Address" name="email"
             />
             <input
               class="form-control form-control-lg"
               type="text"
-              placeholder="No. Phone"
+              placeholder="No. Phone" name="tlp"
             />
           </div>
           <div class="col-md-6">
-            <textarea class="form-control form-control-lg" rows="5"></textarea>
+            <textarea class="form-control form-control-lg" rows="5" name="pesan"></textarea>
           </div>
         </div>
         <div class="col-md-3 mx-auto text-center">
-          <button type="button"  class="btn btn-success btn-lg">
+          <button type="submit"  class="btn btn-success btn-lg">
             Send Message
           </button>
         </div>
@@ -274,5 +274,25 @@
     </footer>
     <!-- Akhir Footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true,
+    });
+  </script> 
+
+</script> 
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyNQVNTJK1B5Lb9HfZxanf8xi4wxc7Ou0vThxF7L2Xd1IC4SRwEo9kW0yAlEmJT2ICF/exec'
+  const form = document.forms['wpu-contact-form']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
   </body>
 </html>
