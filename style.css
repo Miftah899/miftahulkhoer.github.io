@@ -1,0 +1,22 @@
+.banner {
+  background: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  color: #fff;
+}
+body {
+  min-height: 2000px;
+}
+.jumbotron {
+  padding-top: 6rem;
+  background-color: rgb(194, 196, 201);
+}
+
+#projects {
+  background-color: rgb(194, 196, 201);
+}
+
+section {
+  padding-top: 5rem;
+}
