@@ -1,18 +1,21 @@
 .banner {
   background-size: cover;
-  padding-top: 30%;
-  padding-bottom: 30%;
+  padding-top: 50%;
+  margin-top: 15%;
 }
 
 .jumbotron {
   padding-top: 20%;
   background-color: rgb(194, 196, 201);
+  margin-bottom: 5%;
 }
 
 #projects {
+  margin-top: 5%;
   background-color: rgb(194, 196, 201);
 }
 
 section {
+  margin-top: 5%;
   padding-top: 20%;
 }
